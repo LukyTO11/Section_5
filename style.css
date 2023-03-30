@@ -1,0 +1,127 @@
+* {
+    background: url(https://source.unsplash.com/random/3840x2160);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 700px){
+    #input-el{
+        width: 28rem;
+    }
+}
+@media (min-width: 1000px){
+    #input-el{
+        width: 900px;
+    }
+}
+
+ body{
+    padding: 10px;
+}
+
+input {
+    background: whitesmoke;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-left: 8px;
+    width: 600px;
+    height: 40px;
+}
+
+/* Button */
+
+button {
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 10px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    transition: .5s;
+    transform: scale(103%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#input-btn {
+    padding: 14px 20px;
+}
+
+#tab-btn {
+    padding: 14px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End of button */
+
+/*delete BTN */
+
+.delete-btn{
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    border: transparent;
+    padding: 10px;
+    transform: scale(101%);
+    transition: .5s;
+}
+
+.delete-btn:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transform: scale(103%);
+    padding: 10px;
+}
+
+#delete-btn {
+    padding: 14px 20px;
+}
+
+/* End of delete BTN */
+
+
+
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+li {
+    margin-top: 8px;
+} 
+
